@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "title": "Certificado de Descoberta e Prova Determinística: Primo Gigantesco de Bruno de Paula Crispim (10.111 Dígitos)",
+    "upload_type": "dataset",
+    "description": "Registro de descoberta e prova determinística de primalidade do primo gigantesco P = k * 2^33334 + 1 (10.111 dígitos decimais, 33.588 bits), ancorado criptograficamente na semente 'bruno de paula crispim' via SHA-256. A prova emprega o Teorema de Proth (1878) e a Lei de Reciprocidade Quadrática de Gauss com resíduo quadrático a=3. O conjunto contém o relatório técnico em PDF, a expansão completa dos 10.111 dígitos decimais e o script independente de auditoria em Python.",
+    "creators": [
+      {
+        "name": "Crispim, Bruno de Paula",
+        "affiliation": "Pesquisador Independente / Descoberta Matemática"
+      }
+    ],
+    "keywords": [
+      "prime number",
+      "gigantic prime",
+      "proth theorem",
+      "computational number theory",
+      "cryptography",
+      "elliptic curves",
+      "blockchain"
+    ],
+    "license": "CC-BY-4.0",
+    "access_right": "open",
+    "version": "1.0.0",
+    "dates": [
+      {
+        "date": "2026-11-09",
+        "type": "Issued"
+      }
+    ],
+    "references": [
+      "Proth, F. (1878). Théorèmes sur les nombres premiers. Comptes rendus de l'Académie des sciences Paris, 87, 664.",
+      "Brillhart, J., Lehmer, D. H., & Selfridge, J. L. (1975). New primality criteria and factorizations of 2^m +/- 1. Mathematics of Computation, 29(130), 620-647.",
+      "NIST FIPS 180-4: Secure Hash Standard (SHS). National Institute of Standards and Technology, 2015."
+    ],
+    "custom": {
+      "prime_formula": "P = 19000041548667697985925397706689617339423511024733994245427679492849705940689 * 2^33334 + 1",
+      "decimal_digits": 10111,
+      "bit_length": 33588,
+      "sha256_digits": "b076332f5e4bd7d252bde6b8bed0079c5286628ad96766287ffa2b7c661f5817",
+      "seed_phrase": "bruno de paula crispim",
+      "seed_sha256": "2a01a475c1a0032d83686140d70c158bf6a77b47a071998eb9ea82173b0fa061"
+    }
+  }
+}
